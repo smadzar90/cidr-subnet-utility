@@ -15,7 +15,6 @@ CIDR and subnets are fundamental tools in networking that provide more efficient
 ### Example
 
 ```
-
 Enter a CIDR(IPv4) slash notation (e.g., 5.5.5.5/10) of your network: 1.1.1.1/23
 
 The number of addresses: 512
@@ -48,13 +47,13 @@ The network mask with prefix /27 is: 255.255.255.224
 Do you want to try again [y/n]? n
 
 *** Program executed ***
-
 ```
 
 ### How to Run
 
-1. javac -cp lib/commons-validator-1.7.jar src/CIDRInfoExtractor.java
-2. java -cp lib/commons-validator-1.7.jar:src CIDRInfoExtractor
+1. cd path_to_cidr-subnet-utility
+2. javac -cp lib/commons-validator-1.7.jar src/CIDRInfoExtractor.java
+3. java -cp lib/commons-validator-1.7.jar:src CIDRInfoExtractor
 
 ### Author 
 
