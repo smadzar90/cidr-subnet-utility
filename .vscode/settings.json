@@ -3,11 +3,6 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "/Users/stipanmadzar/Documents/commons-validator-1.7/apidocs/**/*.jar",
-        "/Users/stipanmadzar/Documents/commons-validator-1.7/commons-validator-1.7-sources.jar",
-        "/Users/stipanmadzar/Documents/commons-validator-1.7/commons-validator-1.7-test-sources.jar",
-        "/Users/stipanmadzar/Documents/commons-validator-1.7/commons-validator-1.7-javadoc.jar",
-        "/Users/stipanmadzar/Documents/commons-validator-1.7/commons-validator-1.7-tests.jar",
-        "/Users/stipanmadzar/Documents/commons-validator-1.7/commons-validator-1.7.jar"
+        
     ]
 }
