@@ -30,7 +30,7 @@ public class CIDRInfoExtractor {
 
         InetAddressValidator validator = InetAddressValidator.getInstance();
         
-        if(validator.isValidInet4Address(address) && (prefixLength >= 1 && prefixLength <= 32)) {
+        if(validator.isValidInet4Address(address) && (prefixLength >= 0 && prefixLength <= 32)) {
             return true;
         }
             
@@ -119,8 +119,8 @@ public class CIDRInfoExtractor {
         return binaryToDecimalAddress(networkMask.toString());
     }
 
-    public static int calculateNumberOfIPAddresses() {
-        return (int) Math.pow(2, 32 - prefixLength);
+    public static long calculateNumberOfIPAddresses() {
+        return (long) Math.pow(2, 32 - prefixLength);
     }
     
     
